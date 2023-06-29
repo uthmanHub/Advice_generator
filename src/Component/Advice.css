@@ -24,7 +24,6 @@ html {
     background-color: #313A48;
     padding: 20px;
     border-radius: 10px;
-
 }
 
 h2 {
@@ -60,6 +59,7 @@ h2 {
 }
 
 .button button {
+    border: none;
     border-radius: 50%;
     padding: 20px;
     background-color: #53FFAA;
@@ -76,7 +76,8 @@ h2 {
     .container {
         width: 343px;
         height: 347px;
-        margin: 50px auto;
+        margin-left:  20%;
+        margin-right:  20%;
         text-align: center;
     }
     
@@ -87,7 +88,7 @@ h2 {
         padding: 20px;
         border-radius: 10px;
         text-align: center;
-        margin: auto;
+        margin: 0 auto;
     
     }
 
