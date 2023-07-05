@@ -6,7 +6,7 @@
 
 html {
     font-family: 'Manrope', sans-serif;
-    background-color: hsl(218, 23%, 16%);
+    background-color: #1f2632;
 
     
 }
@@ -71,13 +71,11 @@ h2 {
 }
 
 
-@media (max-width : 375px) {
+@media (max-width : 441px) {
 
     .container {
-        width: 343px;
+        width: auto;
         height: 347px;
-        margin-left:  20%;
-        margin-right:  20%;
         text-align: center;
     }
     
@@ -106,7 +104,7 @@ h2 {
     }
 
     .desktop {
-        visibility: hidden;
+        display: none;
     }
     .mobile {
         visibility: visible;
